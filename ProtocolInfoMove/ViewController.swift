@@ -41,6 +41,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // 스토리보드에서 identifier 적용 필요 secondMoveIdentifire
         if segue.identifier == "secondMoveIdentifire" {
             let secondViewController = segue.destination as! SecondViewController
             self.dataDelegate = secondViewController
@@ -51,6 +52,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
 
 }
+
+
 
 /*
  
