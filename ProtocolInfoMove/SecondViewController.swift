@@ -10,7 +10,6 @@ import UIKit
 class SecondViewController: UIViewController, ProtocolData {
     
     
-    
     var data: String? // New property to store the data
     
     
@@ -18,8 +17,7 @@ class SecondViewController: UIViewController, ProtocolData {
         self.data = data
     }
     
-    
-    
+
     
     
     @IBOutlet weak var textFieldSecondView: UILabel!
@@ -33,9 +31,6 @@ class SecondViewController: UIViewController, ProtocolData {
         }
     }
     
-    
-    
-    
-    
+
 }
 
