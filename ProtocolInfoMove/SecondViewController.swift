@@ -16,7 +16,6 @@ class SecondViewController: UIViewController, ProtocolData {
     
     func passData(_ data: String) {
         self.data = data
-        textFieldSecondView?.text = data
     }
     
     
